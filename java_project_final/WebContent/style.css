@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Century Gothic;
+}
+
+header {
+  background-image: url(WhatsApp\ Image\ 2023-03-03\ at\ 03.19.15.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+ul {
+  float: left;
+  list-style-type: none;
+  margin-top: 60px;
+  margin-right: 10px;
+}
+p.heading {
+  color: rgb(249, 225, 9);
+  margin-left: 10px;
+  font-size: xxx-large;
+  font-stretch: extra-expanded;
+  font-synthesis: style;
+  text-align: left;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li a {
+  border: rgb(249, 225, 9);
+  padding: 6px 20px;
+  color: rgb(249, 225, 9);
+  font-weight: bold;
+}
+
+ul li a:hover {
+  background-color: rgb(255, 253, 188);
+  color: rgb(6, 6, 6);
+  transition: 0.6s ease;
+}
+ul li.active a {
+  background-color: rgb(255, 253, 188);
+  color: rgb(6, 6, 6);
+  transition: 0.6s ease;
+}
+
+.logo img {
+  width: 160px;
+  height: auto;
+  box-shadow: 2px;
+  border-radius: 50%;
+}
+table {
+  margin-top: 10vh;
+  border: 1px solid wheat;
+  background-color: rgb(249, 225, 9);
+  opacity: 0.9;
+}
+table tr th a.links {
+  padding: 10px 30px;
+  color: black;
+}
+table tr th a.links:hover {
+  background-color: black;
+  color: rgb(249, 225, 9);
+}
+form {
+  background-color: rgb(249, 225, 9);
+  padding: 40px;
+  font-size: x-large;
+  opacity: 0.8;
+  margin: 100px 550px;
+}
+
+form input.submit {
+  background-color: rgb(108, 215, 245);
+  float: right;
+  align-items: center;
+  align-self: center;
+  padding: 8px 35px;
+  font-size: large;
+  font-weight: bold;
+  width: 100%;
+  margin-right: 0;
+}
+form input.checkbox {
+  block-size: 25px;
+  width: 100%;
+}
+form input.register {
+  width: 100%;
+  block-size: 25px;
+  background-color: rgb(151, 150, 150);
+  color: black;
+  border: 5px black;
+}
+span.buttonBase {
+  background: #cfd4dc;
+  border-style: solid;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+span.button {
+  font-size: small;
+  padding: 8px 111px;
+}
+span.signIn {
+  font-size: small;
+  padding: 8px 123px;
+}
+span.payment {
+  font-size: small;
+  background-color: rgb(72, 229, 33);
+  padding: 8px 77px;
+  color: black;
+}
+span a.paylink {
+  color: black;
+  font-weight: bold;
+}
+div.alert-content {
+  font-size: small;
+  color: red;
+  font-style: italic;
+  font-weight: normal;
+}
+h1.homeH1 {
+  text-align: center;
+  text-orientation: sideways-right;
+  font-weight: bolder;
+  font-size: xxx-large;
+  padding: 25px;
+}
+button {
+  padding: 5px;
+  margin: 1%;
+  border-radius: 5px;
+  transition-duration: 0.3s;
+  background-color: rgba(241, 245, 6, 0.58);
+  width: 200px;
+}
+button:hover {
+  background-color: gold;
+}
+button a.effect {
+  color: black;
+  transition: 0.8s;
+  font-size: medium;
+  font-weight: bold;
+}
+form label {
+  color: black;
+  font-size: medium;
+  font-size: large;
+  font-weight: bold;
+}
+form input {
+  padding: 15;
+}
+button.reset {
+  background-color: rgb(228, 226, 226);
+  color: black;
+}
+table.pass {
+  border: 1px solid gold;
+  margin-top: 0;
+  background-color: rgba(249, 225, 9, 0.715);
+  font-size: x-large;
+  color: black;
+  margin-left: 35%;
+  width: 450px;
+  height: 550px;
+}
+table tr td input {
+  padding: 5px;
+  width: 80%;
+}
+table tr td select {
+  padding: 5px;
+  width: 87%;
+}
+span.buttonBase1 {
+  background: #fce702;
+  border-style: solid;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  padding: 10px;
+}
+span.pay {
+  font-size: medium;
+  font-weight: bold;
+  padding: 20px 50px;
+}
